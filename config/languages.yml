@@ -1,0 +1,679 @@
+---
+- !ruby/object:Rubis::Language
+  iso_639_1: aa
+  native_name: Qafar
+  english_name: Afar
+- !ruby/object:Rubis::Language
+  iso_639_1: ab
+  english_name: Abkhazian
+- !ruby/object:Rubis::Language
+  iso_639_1: af
+  native_name: Afrikaans
+  english_name: Afrikaans
+- !ruby/object:Rubis::Language
+  iso_639_1: ak
+  native_name: Akan
+  english_name: Akan
+- !ruby/object:Rubis::Language
+  iso_639_1: am
+  native_name: "አማርኛ"
+  english_name: Amharic
+- !ruby/object:Rubis::Language
+  iso_639_1: ar
+  native_name: "العربية"
+  english_name: Arabic
+- !ruby/object:Rubis::Language
+  iso_639_1: as
+  native_name: "অসমীয়া"
+  english_name: Assamese
+- !ruby/object:Rubis::Language
+  iso_639_1: ay
+  english_name: Aymara
+- !ruby/object:Rubis::Language
+  iso_639_1: az
+  native_name: azəri
+  english_name: Azeri
+- !ruby/object:Rubis::Language
+  iso_639_1: ba
+  english_name: Bashkir
+- !ruby/object:Rubis::Language
+  iso_639_1: be
+  native_name: "беларуская"
+  english_name: Belarusian
+- !ruby/object:Rubis::Language
+  iso_639_1: bg
+  native_name: "български"
+  english_name: Bulgarian
+- !ruby/object:Rubis::Language
+  iso_639_1: bm
+  native_name: bamanakan
+  english_name: Bambara
+- !ruby/object:Rubis::Language
+  iso_639_1: bn
+  native_name: "বাংলা"
+  english_name: Bengali
+- !ruby/object:Rubis::Language
+  iso_639_1: bo
+  native_name: "བོད་སྐད་"
+  english_name: Tibetan
+- !ruby/object:Rubis::Language
+  iso_639_1: br
+  native_name: brezhoneg
+  english_name: Breton
+- !ruby/object:Rubis::Language
+  iso_639_1: bs
+  native_name: bosanski
+  english_name: Bosnian
+- !ruby/object:Rubis::Language
+  iso_639_1: ca
+  native_name: català
+  english_name: Catalan
+- !ruby/object:Rubis::Language
+  iso_639_1: co
+  english_name: Corsican
+- !ruby/object:Rubis::Language
+  iso_639_1: cs
+  native_name: "čeština"
+  english_name: Czech
+- !ruby/object:Rubis::Language
+  iso_639_1: cu
+  english_name: Church Slavic
+- !ruby/object:Rubis::Language
+  iso_639_1: cy
+  native_name: Cymraeg
+  english_name: Welsh
+- !ruby/object:Rubis::Language
+  iso_639_1: da
+  native_name: dansk
+  english_name: Danish
+- !ruby/object:Rubis::Language
+  iso_639_1: de
+  native_name: Deutsch
+  english_name: German
+- !ruby/object:Rubis::Language
+  iso_639_1: dv
+  english_name: Divehi
+- !ruby/object:Rubis::Language
+  iso_639_1: dz
+  native_name: "རྫོང་ཁ"
+  english_name: Dzongkha
+- !ruby/object:Rubis::Language
+  iso_639_1: ee
+  native_name: eʋegbe
+  english_name: Ewe
+- !ruby/object:Rubis::Language
+  iso_639_1: el
+  native_name: "Ελληνικά"
+  english_name: Greek
+- !ruby/object:Rubis::Language
+  iso_639_1: en
+  native_name: English
+  english_name: English
+- !ruby/object:Rubis::Language
+  iso_639_1: eo
+  native_name: esperanto
+  english_name: Esperanto
+- !ruby/object:Rubis::Language
+  iso_639_1: es
+  native_name: español
+  english_name: Spanish
+- !ruby/object:Rubis::Language
+  iso_639_1: et
+  native_name: eesti
+  english_name: Estonian
+- !ruby/object:Rubis::Language
+  iso_639_1: eu
+  native_name: euskara
+  english_name: Basque
+- !ruby/object:Rubis::Language
+  iso_639_1: fa
+  native_name: "فارسی"
+  english_name: Persian
+- !ruby/object:Rubis::Language
+  iso_639_1: fi
+  native_name: suomi
+  english_name: Finnish
+- !ruby/object:Rubis::Language
+  iso_639_1: fj
+  english_name: Fijian
+- !ruby/object:Rubis::Language
+  iso_639_1: fo
+  native_name: føroyskt
+  english_name: Faroese
+- !ruby/object:Rubis::Language
+  iso_639_1: fr
+  native_name: français
+  english_name: French
+- !ruby/object:Rubis::Language
+  iso_639_1: fy
+  native_name: West-Frysk
+  english_name: Western Frisian
+- !ruby/object:Rubis::Language
+  iso_639_1: ga
+  native_name: Gaeilge
+  english_name: Irish
+- !ruby/object:Rubis::Language
+  iso_639_1: gd
+  native_name: Gàidhlig
+  english_name: Scottish Gaelic
+- !ruby/object:Rubis::Language
+  iso_639_1: gl
+  native_name: galego
+  english_name: Galician
+- !ruby/object:Rubis::Language
+  iso_639_1: gn
+  english_name: Guarani
+- !ruby/object:Rubis::Language
+  iso_639_1: gu
+  native_name: "ગુજરાતી"
+  english_name: Gujarati
+- !ruby/object:Rubis::Language
+  iso_639_1: gv
+  native_name: Gaelg
+  english_name: Manx
+- !ruby/object:Rubis::Language
+  iso_639_1: ha
+  native_name: Hausa
+  english_name: Hausa
+- !ruby/object:Rubis::Language
+  iso_639_1: he
+  native_name: "עברית"
+  english_name: Hebrew
+- !ruby/object:Rubis::Language
+  iso_639_1: hi
+  native_name: "हिंदी"
+  english_name: Hindi
+- !ruby/object:Rubis::Language
+  iso_639_1: hr
+  native_name: hrvatski
+  english_name: Croatian
+- !ruby/object:Rubis::Language
+  iso_639_1: ht
+  english_name: Haitian
+- !ruby/object:Rubis::Language
+  iso_639_1: hu
+  native_name: magyar
+  english_name: Hungarian
+- !ruby/object:Rubis::Language
+  iso_639_1: hy
+  native_name: "հայերեն"
+  english_name: Armenian
+- !ruby/object:Rubis::Language
+  iso_639_1: ia
+  native_name: interlingua
+  english_name: Interlingua
+- !ruby/object:Rubis::Language
+  iso_639_1: id
+  native_name: Bahasa Indonesia
+  english_name: Indonesian
+- !ruby/object:Rubis::Language
+  iso_639_1: ie
+  english_name: Interlingue
+- !ruby/object:Rubis::Language
+  iso_639_1: ig
+  native_name: Igbo
+  english_name: Igbo
+- !ruby/object:Rubis::Language
+  iso_639_1: ii
+  native_name: "ꆈꌠꉙ"
+  english_name: Sichuan Yi
+- !ruby/object:Rubis::Language
+  iso_639_1: is
+  native_name: "íslenska"
+  english_name: Icelandic
+- !ruby/object:Rubis::Language
+  iso_639_1: it
+  native_name: italiano
+  english_name: Italian
+- !ruby/object:Rubis::Language
+  iso_639_1: iu
+  english_name: Inuktitut
+- !ruby/object:Rubis::Language
+  iso_639_1: ja
+  native_name: "日本語"
+  english_name: Japanese
+- !ruby/object:Rubis::Language
+  iso_639_1: jv
+  english_name: Javanese
+- !ruby/object:Rubis::Language
+  iso_639_1: ka
+  native_name: "ქართული"
+  english_name: Georgian
+- !ruby/object:Rubis::Language
+  iso_639_1: kg
+  english_name: Kongo
+- !ruby/object:Rubis::Language
+  iso_639_1: ki
+  native_name: Gikuyu
+  english_name: Kikuyu
+- !ruby/object:Rubis::Language
+  iso_639_1: kk
+  native_name: "қазақ тілі"
+  english_name: Kazakh
+- !ruby/object:Rubis::Language
+  iso_639_1: kl
+  native_name: kalaallisut
+  english_name: Kalaallisut
+- !ruby/object:Rubis::Language
+  iso_639_1: km
+  native_name: "ខ្មែរ"
+  english_name: Khmer
+- !ruby/object:Rubis::Language
+  iso_639_1: kn
+  native_name: "ಕನ್ನಡ"
+  english_name: Kannada
+- !ruby/object:Rubis::Language
+  iso_639_1: ko
+  native_name: "한국어"
+  english_name: Korean
+- !ruby/object:Rubis::Language
+  iso_639_1: ks
+  native_name: "کٲشُر"
+  english_name: Kashmiri
+- !ruby/object:Rubis::Language
+  iso_639_1: ku
+  english_name: Kurdish
+- !ruby/object:Rubis::Language
+  iso_639_1: kw
+  native_name: kernewek
+  english_name: Cornish
+- !ruby/object:Rubis::Language
+  iso_639_1: ky
+  native_name: "кыргызча"
+  english_name: Kirghiz
+- !ruby/object:Rubis::Language
+  iso_639_1: la
+  english_name: Latin
+- !ruby/object:Rubis::Language
+  iso_639_1: lb
+  native_name: Lëtzebuergesch
+  english_name: Luxembourgish
+- !ruby/object:Rubis::Language
+  iso_639_1: lg
+  native_name: Luganda
+  english_name: Ganda
+- !ruby/object:Rubis::Language
+  iso_639_1: li
+  english_name: Limburgish
+- !ruby/object:Rubis::Language
+  iso_639_1: ln
+  native_name: lingála
+  english_name: Lingala
+- !ruby/object:Rubis::Language
+  iso_639_1: lo
+  native_name: "ລາວ"
+  english_name: Lao
+- !ruby/object:Rubis::Language
+  iso_639_1: lt
+  native_name: lietuvių
+  english_name: Lithuanian
+- !ruby/object:Rubis::Language
+  iso_639_1: lu
+  native_name: Tshiluba
+  english_name: Luba-Katanga
+- !ruby/object:Rubis::Language
+  iso_639_1: lv
+  native_name: latviešu
+  english_name: Latvian
+- !ruby/object:Rubis::Language
+  iso_639_1: mg
+  native_name: Malagasy
+  english_name: Malagasy
+- !ruby/object:Rubis::Language
+  iso_639_1: mi
+  english_name: Maori
+- !ruby/object:Rubis::Language
+  iso_639_1: mk
+  native_name: "македонски"
+  english_name: Macedonian
+- !ruby/object:Rubis::Language
+  iso_639_1: ml
+  native_name: "മലയാളം"
+  english_name: Malayalam
+- !ruby/object:Rubis::Language
+  iso_639_1: mn
+  native_name: "монгол"
+  english_name: Mongolian
+- !ruby/object:Rubis::Language
+  iso_639_1: mr
+  native_name: "मराठी"
+  english_name: Marathi
+- !ruby/object:Rubis::Language
+  iso_639_1: ms
+  native_name: Bahasa Melayu
+  english_name: Malay
+- !ruby/object:Rubis::Language
+  iso_639_1: mt
+  native_name: Malti
+  english_name: Maltese
+- !ruby/object:Rubis::Language
+  iso_639_1: my
+  native_name: "ဗမာ"
+  english_name: Burmese
+- !ruby/object:Rubis::Language
+  iso_639_1: nb
+  native_name: norsk bokmål
+  english_name: Norwegian Bokmål
+- !ruby/object:Rubis::Language
+  iso_639_1: nd
+  native_name: isiNdebele
+  english_name: North Ndebele
+- !ruby/object:Rubis::Language
+  iso_639_1: ne
+  native_name: "नेपाली"
+  english_name: Nepali
+- !ruby/object:Rubis::Language
+  iso_639_1: nl
+  native_name: Nederlands
+  english_name: Dutch
+- !ruby/object:Rubis::Language
+  iso_639_1: nn
+  native_name: nynorsk
+  english_name: Norwegian Nynorsk
+- !ruby/object:Rubis::Language
+  iso_639_1: 'no'
+  english_name: Norwegian
+- !ruby/object:Rubis::Language
+  iso_639_1: nr
+  native_name: isiNdebele
+  english_name: South Ndebele
+- !ruby/object:Rubis::Language
+  iso_639_1: ny
+  english_name: Nyanja
+- !ruby/object:Rubis::Language
+  iso_639_1: oc
+  english_name: Occitan
+- !ruby/object:Rubis::Language
+  iso_639_1: om
+  native_name: Oromoo
+  english_name: Oromo
+- !ruby/object:Rubis::Language
+  iso_639_1: or
+  native_name: "ଓଡ଼ିଆ"
+  english_name: Oriya
+- !ruby/object:Rubis::Language
+  iso_639_1: os
+  native_name: "ирон"
+  english_name: Ossetic
+- !ruby/object:Rubis::Language
+  iso_639_1: pa
+  native_name: "ਪੰਜਾਬੀ"
+  english_name: Punjabi
+- !ruby/object:Rubis::Language
+  iso_639_1: pl
+  native_name: polski
+  english_name: Polish
+- !ruby/object:Rubis::Language
+  iso_639_1: ps
+  native_name: "پښتو"
+  english_name: Pushto
+- !ruby/object:Rubis::Language
+  iso_639_1: pt
+  native_name: português
+  english_name: Portuguese
+- !ruby/object:Rubis::Language
+  iso_639_1: qu
+  native_name: Runasimi
+  english_name: Quechua
+- !ruby/object:Rubis::Language
+  iso_639_1: rm
+  native_name: rumantsch
+  english_name: Romansh
+- !ruby/object:Rubis::Language
+  iso_639_1: rn
+  native_name: Ikirundi
+  english_name: Rundi
+- !ruby/object:Rubis::Language
+  iso_639_1: ro
+  native_name: română
+  english_name: Romanian
+- !ruby/object:Rubis::Language
+  iso_639_1: ru
+  native_name: "русский"
+  english_name: Russian
+- !ruby/object:Rubis::Language
+  iso_639_1: rw
+  native_name: Kinyarwanda
+  english_name: Kinyarwanda
+- !ruby/object:Rubis::Language
+  iso_639_1: sa
+  english_name: Sanskrit
+- !ruby/object:Rubis::Language
+  iso_639_1: sd
+  english_name: Sindhi
+- !ruby/object:Rubis::Language
+  iso_639_1: se
+  native_name: davvisámegiella
+  english_name: Northern Sami
+- !ruby/object:Rubis::Language
+  iso_639_1: sg
+  native_name: Sängö
+  english_name: Sango
+- !ruby/object:Rubis::Language
+  iso_639_1: sh
+  english_name: Serbo-Croatian
+- !ruby/object:Rubis::Language
+  iso_639_1: si
+  native_name: "සිංහල"
+  english_name: Sinhala
+- !ruby/object:Rubis::Language
+  iso_639_1: sk
+  native_name: slovenčina
+  english_name: Slovak
+- !ruby/object:Rubis::Language
+  iso_639_1: sl
+  native_name: slovenščina
+  english_name: Slovenian
+- !ruby/object:Rubis::Language
+  iso_639_1: sm
+  english_name: Samoan
+- !ruby/object:Rubis::Language
+  iso_639_1: sn
+  native_name: chiShona
+  english_name: Shona
+- !ruby/object:Rubis::Language
+  iso_639_1: so
+  native_name: Soomaali
+  english_name: Somali
+- !ruby/object:Rubis::Language
+  iso_639_1: sq
+  native_name: shqip
+  english_name: Albanian
+- !ruby/object:Rubis::Language
+  iso_639_1: sr
+  native_name: "српски"
+  english_name: Serbian
+- !ruby/object:Rubis::Language
+  iso_639_1: ss
+  native_name: Siswati
+  english_name: Swati
+- !ruby/object:Rubis::Language
+  iso_639_1: st
+  english_name: Southern Sotho
+- !ruby/object:Rubis::Language
+  iso_639_1: su
+  english_name: Sundanese
+- !ruby/object:Rubis::Language
+  iso_639_1: sv
+  native_name: svenska
+  english_name: Swedish
+- !ruby/object:Rubis::Language
+  iso_639_1: sw
+  native_name: Kiswahili
+  english_name: Swahili
+- !ruby/object:Rubis::Language
+  iso_639_1: ta
+  native_name: "தமிழ்"
+  english_name: Tamil
+- !ruby/object:Rubis::Language
+  iso_639_1: te
+  native_name: "తెలుగు"
+  english_name: Telugu
+- !ruby/object:Rubis::Language
+  iso_639_1: tg
+  english_name: Tajik
+- !ruby/object:Rubis::Language
+  iso_639_1: th
+  native_name: "ไทย"
+  english_name: Thai
+- !ruby/object:Rubis::Language
+  iso_639_1: ti
+  native_name: "ትግርኛ"
+  english_name: Tigrinya
+- !ruby/object:Rubis::Language
+  iso_639_1: tk
+  english_name: Turkmen
+- !ruby/object:Rubis::Language
+  iso_639_1: tn
+  native_name: Setswana
+  english_name: Tswana
+- !ruby/object:Rubis::Language
+  iso_639_1: to
+  native_name: lea fakatonga
+  english_name: Tongan
+- !ruby/object:Rubis::Language
+  iso_639_1: tr
+  native_name: Türkçe
+  english_name: Turkish
+- !ruby/object:Rubis::Language
+  iso_639_1: ts
+  native_name: Xitsonga
+  english_name: Tsonga
+- !ruby/object:Rubis::Language
+  iso_639_1: tt
+  english_name: Tatar
+- !ruby/object:Rubis::Language
+  iso_639_1: tw
+  english_name: Twi
+- !ruby/object:Rubis::Language
+  iso_639_1: ty
+  english_name: Tahitian
+- !ruby/object:Rubis::Language
+  iso_639_1: ug
+  native_name: "ئۇيغۇرچە"
+  english_name: Uighur
+- !ruby/object:Rubis::Language
+  iso_639_1: uk
+  native_name: "українська"
+  english_name: Ukrainian
+- !ruby/object:Rubis::Language
+  iso_639_1: ur
+  native_name: "اردو"
+  english_name: Urdu
+- !ruby/object:Rubis::Language
+  iso_639_1: uz
+  native_name: oʻzbekcha
+  english_name: Uzbek
+- !ruby/object:Rubis::Language
+  iso_639_1: ve
+  native_name: Tshivenḓa
+  english_name: Venda
+- !ruby/object:Rubis::Language
+  iso_639_1: vi
+  native_name: Tiếng Việt
+  english_name: Vietnamese
+- !ruby/object:Rubis::Language
+  iso_639_1: wo
+  english_name: Wolof
+- !ruby/object:Rubis::Language
+  iso_639_1: xh
+  english_name: Xhosa
+- !ruby/object:Rubis::Language
+  iso_639_1: yi
+  native_name: "ייִדיש"
+  english_name: Yiddish
+- !ruby/object:Rubis::Language
+  iso_639_1: yo
+  native_name: "Èdè Yorùbá"
+  english_name: Yoruba
+- !ruby/object:Rubis::Language
+  iso_639_1: zh
+  native_name: "中文"
+  english_name: Chinese
+- !ruby/object:Rubis::Language
+  iso_639_1: zu
+  native_name: isiZulu
+  english_name: Zulu
+- !ruby/object:Rubis::Language
+  iso_639_1: bi
+  english_name: Bislama
+- !ruby/object:Rubis::Language
+  iso_639_1: ik
+  english_name: Inupiaq
+- !ruby/object:Rubis::Language
+  iso_639_1: na
+  english_name: Nauru
+- !ruby/object:Rubis::Language
+  iso_639_1: tl
+  english_name: Tagalog
+- !ruby/object:Rubis::Language
+  iso_639_1: vo
+  native_name: Volapük
+  english_name: Volapük
+- !ruby/object:Rubis::Language
+  iso_639_1: za
+  english_name: Zhuang
+- !ruby/object:Rubis::Language
+  iso_639_1: ae
+  english_name: Avestan
+- !ruby/object:Rubis::Language
+  iso_639_1: an
+  english_name: Aragonese
+- !ruby/object:Rubis::Language
+  iso_639_1: av
+  english_name: Avaric
+- !ruby/object:Rubis::Language
+  iso_639_1: ce
+  english_name: Chechen
+- !ruby/object:Rubis::Language
+  iso_639_1: ch
+  english_name: Chamorro
+- !ruby/object:Rubis::Language
+  iso_639_1: cr
+  english_name: Cree
+- !ruby/object:Rubis::Language
+  iso_639_1: cv
+  english_name: Chuvash
+- !ruby/object:Rubis::Language
+  iso_639_1: ff
+  native_name: Pulaar
+  english_name: Fulah
+- !ruby/object:Rubis::Language
+  iso_639_1: ho
+  english_name: Hiri Motu
+- !ruby/object:Rubis::Language
+  iso_639_1: hz
+  english_name: Herero
+- !ruby/object:Rubis::Language
+  iso_639_1: io
+  english_name: Ido
+- !ruby/object:Rubis::Language
+  iso_639_1: kj
+  english_name: Kuanyama
+- !ruby/object:Rubis::Language
+  iso_639_1: kr
+  english_name: Kanuri
+- !ruby/object:Rubis::Language
+  iso_639_1: kv
+  english_name: Komi
+- !ruby/object:Rubis::Language
+  iso_639_1: mh
+  english_name: Marshallese
+- !ruby/object:Rubis::Language
+  iso_639_1: ng
+  english_name: Ndonga
+- !ruby/object:Rubis::Language
+  iso_639_1: nv
+  english_name: Navajo
+- !ruby/object:Rubis::Language
+  iso_639_1: oj
+  english_name: Ojibwa
+- !ruby/object:Rubis::Language
+  iso_639_1: pi
+  english_name: Pali
+- !ruby/object:Rubis::Language
+  iso_639_1: sc
+  english_name: Sardinian
+- !ruby/object:Rubis::Language
+  iso_639_1: wa
+  english_name: Walloon

@@ -1,6 +1,6 @@
 # Rubis
 
-TODO: Write a gem description
+Look up language codes
 
 ## Installation
 
