@@ -1,7 +1,7 @@
 require "bundler"
 require "bundler/gem_tasks"
 require "rexml/document"
-require "rubis/language"
+require "yaqut/language"
 require "yaml"
 require "unidecoder"
 
@@ -27,7 +27,7 @@ task :rebuild do
     doc.elements.each("ldml/localeDisplayNames/languages/language") do |lang|
       code_2 = lang.attribute("type").to_s
       if code_2.length == 2
-        language = languages[code_2] ||= Rubis::Language.new()
+        language = languages[code_2] ||= Yaqut::Language.new()
         language.iso_639_1 = code_2
         if inspecting_language == 'en'
           language.english_name = lang.text.downcase

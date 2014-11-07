@@ -1,4 +1,4 @@
-# Rubis
+# Yaqut
 
 Look up language codes & names.
 
@@ -7,7 +7,7 @@ Look up language codes & names.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rubis'
+gem 'yaqut'
 ```
 
 And then execute:
@@ -16,35 +16,35 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rubis
+    $ gem install yaqut
 
 ## Usage
 
 Searching is case-insensitive, but otherwise requires an exact match.
 
-```
-require "rubis"
+```ruby
+require "yaqut"
 
 [...]
 
 # Search all fields
-Rubis.search("english")
+Yaqut.search("english")
 # or, just the language's English name
-Rubis.search(english_name: "french")
+Yaqut.search(english_name: "french")
 # or, just the language's native name, in native script
-Rubis.search(native_name: "العربية")
+Yaqut.search(native_name: "العربية")
 # or, just the language's native name, in ASCII
-Rubis.search(transliterated_native_name: "francais")
+Yaqut.search(transliterated_native_name: "francais")
 # or, just the ISO 639-1 code
-Rubis.search(iso_639_1: "el")
+Yaqut.search(iso_639_1: "el")
 
 ```
 
-All calls, if successful, return a `Rubis::Language` instance from which you can ready any of the search fields (`english_name`, `iso_639_1`, etc.)
+All calls, if successful, return a `Yaqut::Language` instance from which you can ready any of the search fields (`english_name`, `iso_639_1`, etc.)
 
 ## Contributing
 
-1. Fork it ( https://github.com/cpfair/rubis/fork )
+1. Fork it ( https://github.com/cpfair/yaqut/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

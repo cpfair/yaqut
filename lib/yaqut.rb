@@ -1,8 +1,8 @@
-require "rubis/version"
-require "rubis/language"
+require "yaqut/version"
+require "yaqut/language"
 require "yaml"
 
-module Rubis
+module Yaqut
   ALL_FIELDS = [:english_name, :native_name, :transliterated_native_name, :iso_639_1]
 
   def self.search(any_field=nil, **search_params)
