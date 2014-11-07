@@ -5,7 +5,7 @@ describe Rubis do
     context "invalid inputs" do
       context "no parameters" do
         it "fails" do
-          expect{ Rubis.search() }.to raise_exception
+          expect{ Rubis.search }.to raise_exception
         end
       end
 
