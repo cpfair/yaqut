@@ -18,27 +18,27 @@ describe Yaqut do
 
     context "valid inputs" do
       it "handles multifield search" do
-        expect(Yaqut.search("english").first.iso_639_1).to eq("en")
+        expect(Yaqut.search("english").iso_639_1).to eq("en")
       end
 
       it "isn't overeager" do
-        expect(Yaqut.search(iso_639_1: "english").length).to eq(0)
+        expect(Yaqut.search(iso_639_1: "english")).to be_nil
       end
 
       it "handles specific search" do
-        expect(Yaqut.search(iso_639_1: "en").first.iso_639_1).to eq("en")
+        expect(Yaqut.search(iso_639_1: "en").iso_639_1).to eq("en")
       end
 
       it "handles native-language search" do
-        expect(Yaqut.search("français").first.iso_639_1).to eq("fr")
+        expect(Yaqut.search("français").iso_639_1).to eq("fr")
       end
 
       it "handles transliterated native-language search" do
-        expect(Yaqut.search("francais").first.iso_639_1).to eq("fr")
+        expect(Yaqut.search("francais").iso_639_1).to eq("fr")
       end
 
       it "confuses people who thought native_name was already transliterated" do
-        expect(Yaqut.search(native_name: "francais").length).to eq(0)
+        expect(Yaqut.search(native_name: "francais")).to be_nil
       end
     end
   end
